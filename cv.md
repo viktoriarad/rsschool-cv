@@ -79,3 +79,21 @@ I was working on the project dedicated to Cracow Youth Event 2019 "Intersection"
 - Git
 - task tracker Trelo
 - Photoshop
+ 
+---
+
+### Education:
+
+- Bachelor of Engineering, College of Economics and Computer Science
+- Udemy Courses
+    - Programing with JavaScript (Samuraj Programowania)
+    - Advanced projects with JavaScript and CSS (Samuraj Programowania)
+
+---
+
+### Languages:
+
+- English - Intermediate (B1)
+- Polish  - Upper-Intermediate (B2)
+- Ukrainian - Mother tongue
+- Russian - Mother tongue
