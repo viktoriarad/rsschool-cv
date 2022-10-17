@@ -1,0 +1,215 @@
+:root {
+    --bright-color: #343434;
+    --light-color: #E2E0D0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cv-page {
+    position: relative;
+    width: 21cm;
+    padding: 0 10px;
+    margin: 20px auto 0 auto;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 10px 40px -1px rgb(0 0 0 / 23%);
+}
+
+.display-none {
+    display: none;
+}
+
+.header {
+    background-color: var(--bright-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    padding-left: calc(30% + 30px);
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name {
+    color: var(--light-color);
+    text-transform: uppercase;
+    font-size: 38px;
+    font-family: 'Poppins';
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.job-position {
+    color: var(--light-color);
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-part {
+    width: 30%;
+    background-color: var(--light-color);
+    padding: 30px 0 30px 30px;
+}
+.section-image {
+    padding: 0px 30px 0 0;
+    margin-bottom: 50px;
+}
+.section-contact, .section-skills, .section-language {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cv-img {
+    border-radius: 50%;
+    border: 2px solid var(--bright-color);
+    width: 100%;
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: var(--bright-color);
+    margin: 10px 0;
+}
+
+.section-item {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.item-margin {
+    margin-top: 0px;
+}
+
+.lang-container {
+}
+
+.right-part {
+    width: 70%;
+    padding: 30px;
+}
+
+.full-story-block, .full-story-block-second-type {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+}
+
+.full-story-block-second-type {
+    display: block;
+}
+
+.section-container-left {
+    width: 25%;
+}
+
+.section-container-right {
+    width: 80%;
+}
+
+.round-decoration {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--light-color);
+    border: 1px solid black;
+    position: absolute;
+    top: 2px;
+    left: -20px;
+    transform: translateX(-50%);
+}
+
+.section-about {
+    margin-top: 239px;
+    padding: 0 10px 0 20px;
+    margin-bottom: 50px;
+}
+
+.section-education, .section-experience, .section-code-example {
+    padding: 0 10px 0 20px;
+    border-left: 1px solid var(--bright-color);
+    margin-bottom: 50px;
+}
+
+.section-item-title {
+    font-weight: 400;
+}
+
+.summary-paragraph {
+    text-align: justify;
+    margin-top: 5px;
+}
+
+.task-container {
+    margin: 10px 0;
+}
+
+.task-item {
+    list-style: inside;
+}
+
+.link-to-repo {
+    text-decoration: underline;
+}
+
+pre {
+    background-color: #f6f8fa;
+
+}
+
+.footer {
+    background-color: var(--bright-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--light-color);
+    font-family: Poppins;
+    padding: 0 40px;
+}
+
+
+.github-link span{
+    color: var(--light-color);
+}
+.github-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
