@@ -188,3 +188,28 @@ pre {
     background-color: #f6f8fa;
 
 }
+
+.footer {
+    background-color: var(--bright-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--light-color);
+    font-family: Poppins;
+    padding: 0 40px;
+}
+
+
+.github-link span{
+    color: var(--light-color);
+}
+.github-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
